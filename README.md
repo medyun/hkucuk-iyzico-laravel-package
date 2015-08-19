@@ -10,9 +10,20 @@ This package offers simply iyzico laravel bundled payment system API for PHP Fra
 
 ## Installation
 
-The hkucuk/iyzico Service Provider can be installed via [Composer](http://getcomposer.org) Run composer install
-```sh
-composer require hkucuk/iyzico
+The hkucuk/iyzico Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the
+`the hkucuk/iyzico` package in your project's `composer.json`.
+
+```json
+{
+    "require": {
+        "the hkucuk/iyzico": "v1.0.0"
+    }
+}
+```
+
+After need update composer
+```
+composer update
 ```
 
 To use the hkucuk/iyzico Service Provider, you must register the provider when bootstrapping your Laravel application.

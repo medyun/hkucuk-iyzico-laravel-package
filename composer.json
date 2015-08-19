@@ -1,0 +1,23 @@
+{
+    "name": "hkucuk/iyzico",
+    "description": "iyzico payment system laravel package",
+    "keywords": ["iyzico", "laravel"],
+    "authors":[
+    {
+        "name":"Hüseyin Küçük",
+        "homepage":"http://www.hkucuk.com"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/facades"
+        ],
+        "psr-0": {
+            "Hkucuk\\Iyzico": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
